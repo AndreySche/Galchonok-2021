@@ -1,11 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 namespace Galchonok
 {
-    public static partial class GameAbuilder
+    public static partial class UtilitesA
     {
         public static GameObject SetTextInChildren(this GameObject gameObject, string word)
         {

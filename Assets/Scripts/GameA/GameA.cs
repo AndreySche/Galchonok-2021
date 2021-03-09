@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+using System.Collections.Generic;
 
 namespace Galchonok
 {
     public class GameA : PageInit
     {
-        #region Variables
         readonly int _countAnswers = 4;
         readonly int _countQuestions = 20;
         [SerializeField] GameObject _prefabGreen = null, _prefabOrange = null;
@@ -13,15 +14,40 @@ namespace Galchonok
 
         LibrarionA _librarion;
         ProgressBarA _progressBar;
-        QuestionController _questionController;
-        #endregion
 
         void Awake()
         {
             _librarion = new LibrarionA(_countQuestions, _countAnswers);
             _progressBar = new ProgressBarA(_countQuestions, _areaProgressBar);
-            _questionController = new QuestionController(_areaQuestion, _areaAnswer, _prefabGreen, _prefabOrange, _progressBar, _librarion, this, null);
-            _questionController.Next();
+            Next();
+        }
+
+        private void Next()
+        {
+            HistoryToQuestionPull questionPull = _librarion.Next();
+            if (questionPull == null)
+            {
+                _controller.OpenResult(_librarion.clickSaver);
+                return;
+            }
+
+            _areaQuestion.Destroy().Attach($"{ questionPull.Question.ToUpper() }?", _prefabOrange);
+            _areaAnswer.Destroy();
+            for (int i = 0; i < _countAnswers; i++)
+            {
+                bool correct = questionPull.Correct == i;
+                int number = i;
+                _areaAnswer.Attach(questionPull.Answers[i], _prefabGreen).GetOrAddComponent<Button>()
+                            .onClick.AddListener(() => ClickAnswer(correct, number));
+            }
+        }
+
+        void ClickAnswer(bool correct, int click)
+        {
+            _controller.beethoven.Click(correct);
+            _progressBar.Set(correct);
+            _librarion.ClickSaver(correct, click);
+            Next();
         }
     }
 }

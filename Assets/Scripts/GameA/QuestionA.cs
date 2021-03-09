@@ -4,10 +4,10 @@ namespace Galchonok
 {
     public class QuestionA
     {
-        public List<string> Question;
-        public List<List<string>> Answer;
+        public string Question;
+        public List<string> Answer;
 
-        public QuestionA(List<string> question, List<List<string>> answer)
+        public QuestionA( string question, List<string> answer)
         {
             Question = question;
             Answer = answer;
