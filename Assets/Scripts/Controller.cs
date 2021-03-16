@@ -57,7 +57,7 @@ namespace Galchonok
             GameObject page = _pageSwitch.OpenPage(pageName);
             if (pageName == Pages.Menu) page.GetComponent<Menu>().Init(this);
             if (pageName == Pages.GameA) page.GetComponent<GameA>().Init(this);
-            if (pageName == Pages.GameB) page.GetComponent<GameB>().Init(this);
+            if (pageName == Pages.GameB) page.GetComponent<GameA>().Init(this);
             if (pageName == Pages.Result) page.GetComponent<Result>().Init(this);
             if (pageName == Pages.Settings) page.GetComponent<Settings>().Init(this);
             if (pageName == Pages.Logo) page.GetComponent<Logo>().Init(this);

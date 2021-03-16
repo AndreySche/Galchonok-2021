@@ -6,14 +6,14 @@ namespace Galchonok
 {
     class Result : PageInit
     {
-        [SerializeField] Transform _areaProgressBar = null;
-        ProgressBarA _progressBar;
+        //[SerializeField] Transform _areaProgressBar = null;
+        //ProgressBarA _progressBar;
 
-        void Start()
-        {
-            List<bool> list = _controller.clickResult;
-            _progressBar = new ProgressBarA(list.Count, _areaProgressBar);
-            _progressBar.SetResult(list);
-        }
+        //void Start()
+        //{
+        //    List<bool> list = _controller.clickResult;
+        //    _progressBar = new ProgressBarA(list.Count, _areaProgressBar);
+        //    _progressBar.SetResult(list);
+        //}
     }
 }
