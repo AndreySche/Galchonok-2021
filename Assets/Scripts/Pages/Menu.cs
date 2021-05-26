@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace Galchonok
 {
-    class Menu : MyMonoBehaviour
+    class Menu : MonoBehaviour
     {
         [SerializeField] List<GameObject> _buttonGame = null;
         [SerializeField] List<GameObject> _buttonMenu = null;

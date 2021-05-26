@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 namespace Galchonok
 {
-    public class PageInit : MyMonoBehaviour
+    public class PageInit : MonoBehaviour
     {
         [SerializeField] GameObject _buttonBack = null;
         [HideInInspector] public Controller _controller;

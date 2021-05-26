@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Galchonok
 {
-    class Cookies : MyMonoBehaviour
+    class Cookies : MonoBehaviour
     {
         public static string showWarning;
 

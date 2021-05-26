@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace Galchonok
 {
-    public class Controller : MyMonoBehaviour
+    public class Controller : MonoBehaviour
     {
         readonly float _fadeDuration = 0.2f/*, _logoDuration = 2f*/;
 
