@@ -1,23 +1,29 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using DG.Tweening;
 
 namespace Galchonok
 {
-    public class Curtain
+    class Curtain
     {
-        Image _curtain;
-        float _duration;
+        private Image _curtain;
+        private float _duration = 0.5f;
+        private Ease _easeIn = Ease.InBounce, _easeOut = Ease.OutBounce;
 
-        public Curtain(GameObject curtain, float duration)
+        public Curtain(Image curtain)
         {
-            _duration = duration;
-            _curtain = curtain.GetComponent<Image>();
+            _curtain = curtain;
+            _curtain.gameObject.SetActive(true);
         }
 
-        public void Show(bool stat)
+        public void View(bool show)
         {
-            float progress = stat ? 1f : 0f;
-            _curtain.CrossFadeAlpha(progress, _duration, false);
+            _curtain.DOKill();
+            if (show) Show();
+            else Hide();
         }
+
+        private void Show() => _curtain.DOFade(0.0f, _duration).SetEase(_easeIn);
+        private void Hide() => _curtain.DOFade(0.0f, _duration).SetEase(_easeOut);
     }
 }

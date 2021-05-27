@@ -1,22 +1,17 @@
 ﻿using UnityEngine;
 
-class SafeAreaDetected : MonoBehaviour
+class SafeAreaDetected
 {
-    RectTransform Panel;
-    Rect LastSafeArea = new Rect(0, 0, 0, 0);
+    private RectTransform Panel;
+    private Rect LastSafeArea = new Rect(0, 0, 0, 0);
 
-    private void Awake()
+    public SafeAreaDetected(RectTransform panel)
     {
-        Application.targetFrameRate = 120;
-        Panel = GetComponent<RectTransform>();
-        Refresh();
+        Panel = panel;
+        Update();
     }
-
-    void Update() { Refresh(); }
-
-    void Refresh()
+    public void Update()
     {
-        return;
         Rect safeArea = Screen.safeArea;
         if (safeArea != LastSafeArea) ApplySafeArea(safeArea);
     }
@@ -34,7 +29,7 @@ class SafeAreaDetected : MonoBehaviour
         anchorMax.x /= Screen.width;
         anchorMax.y /= Screen.height;
 
-        anchorMin.y = 0f; // iPhone: safeArea Down = 0;
+        //anchorMin.y = 0f; // iPhone: safeArea Down = 0;
 
         Panel.anchorMin = anchorMin;
         Panel.anchorMax = anchorMax;

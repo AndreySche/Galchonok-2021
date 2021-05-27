@@ -64,7 +64,7 @@ namespace Galchonok
             if (_right) _librarion.AddClickToHistory(buttonIndex);
             else _librarion2.AddClickToHistory(buttonIndex);
 
-            _controller.beethoven.Click(correct);
+            //_controller.beethoven.Click(correct);
             _progressBar.SetColor(index, correct);
             Next(true);
             if (!correct) Next(false);
