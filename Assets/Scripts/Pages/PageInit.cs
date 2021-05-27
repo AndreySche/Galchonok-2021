@@ -1,17 +1,28 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Galchonok
 {
+    //[RequireComponent(typeof(Button))]
     public class PageInit : MonoBehaviour
     {
-        //[SerializeField] GameObject _buttonBack = null;
-        //[HideInInspector] public Controller _controller;
-
-        public void Init()
+        [SerializeField] private GameObject _backButton;
+        private Button _back;
+        
+        public void Init(UnityAction callBack)
         {
-            //_controller = controller;
-            //_buttonBack.GetOrAddComponent<Button>().onClick.AddListener(() => controller.OpenPage(Pages.Menu));
+            _back = _backButton.GetOrAddComponent<Button>();
+            _back.onClick.AddListener(() =>
+            {
+                 Dispose();
+                 callBack();
+            });
+        }
+
+        private void Dispose()
+        {
+            _back.onClick.RemoveAllListeners();
         }
     }
 }

@@ -5,20 +5,30 @@ using UnityEngine.UI;
 
 namespace Galchonok
 {
+    [RequireComponent(typeof(Button))]
     class Menu : MonoBehaviour
     {
-        //[SerializeField] List<GameObject> _buttonGame = null;
-        [SerializeField] List<GameObject> _buttonMenu = null;
+        [SerializeField] List<Button> _buttonGame = null;
+        [SerializeField] List<Button> _buttonMenu = null;
+        private PageSwitch _pageSwitch;
 
-        public void Init()
+        public void Init(PageSwitch pageSwitch)
         {
-            //_buttonGame[0].GetOrAddComponent<Button>().onClick.AddListener(() => controller.OpenPage(Pages.GameA));
-            //_buttonGame[1].GetOrAddComponent<Button>().onClick.AddListener(() => controller.OpenPage(Pages.GameB));
+            _pageSwitch = pageSwitch;
+            _buttonGame[0].onClick.AddListener(() => Dispose(Pages.GameA));
+            _buttonGame[1].onClick.AddListener(() => Dispose(Pages.GameB));
 
-            //_buttonMenu[0].GetOrAddComponent<Button>().onClick.AddListener(() => controller.OpenPage(Pages.Logo));
-            _buttonMenu[1].GetOrAddComponent<Button>().interactable = false;
-            _buttonMenu[2].GetOrAddComponent<Button>().interactable = false;
-            _buttonMenu[3].GetOrAddComponent<Button>().interactable = false;
+            _buttonMenu[0].onClick.AddListener(() => Dispose(Pages.Logo));
+            _buttonMenu[1].interactable = false;
+            _buttonMenu[2].interactable = false;
+            _buttonMenu[3].onClick.AddListener(() => Dispose(Pages.Warning));
+        }
+
+        private void Dispose(Pages page)
+        {
+            _pageSwitch.LoadPage(page);
+            foreach (var child in _buttonGame) child.onClick.RemoveAllListeners();
+            foreach (var child in _buttonMenu) child.onClick.RemoveAllListeners();
         }
     }
 }

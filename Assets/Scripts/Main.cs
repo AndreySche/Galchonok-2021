@@ -12,14 +12,16 @@ namespace Galchonok
         private void Awake()
         {
             Application.targetFrameRate = 120;
-            _pageSwitch = new PageSwitch(_curtain, _area);
             SafeAreaDetected safe = new SafeAreaDetected( GetComponent<RectTransform>() );
             
-            Invoke( "SplashShow", 1f );
-            Invoke( "SplashHide", 3f );
+            _pageSwitch = new PageSwitch(_curtain, _area);
+            _pageSwitch.LoadPage(Pages.Logo);
+            //Invoke( "SplashShow", 1f );
+            //Invoke( "SplashHide", 1f );
         }
 
-        private void SplashShow() => _pageSwitch.SplashShow();
-        private void SplashHide() => _pageSwitch.SplashHide();
+        private void SplashShow() =>  _pageSwitch.LoadPage(Pages.Logo);
+        //private void SplashShow() => _pageSwitch.LoadLogo();
+        //private void SplashHide() => _pageSwitch.LoadPage(Pages.Menu);
     }
 }

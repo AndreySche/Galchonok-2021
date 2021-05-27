@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using UnityEngine.Events;
 
 namespace Galchonok
 {
@@ -8,7 +9,8 @@ namespace Galchonok
     {
         private Image _curtain;
         private float _duration = 0.5f;
-        private Ease _easeIn = Ease.InBounce, _easeOut = Ease.OutBounce;
+        private Ease _easeIn = Ease.InQuart;
+        private Ease _easeOut = Ease.OutQuart;
 
         public Curtain(Image curtain)
         {
@@ -16,14 +18,15 @@ namespace Galchonok
             _curtain.gameObject.SetActive(true);
         }
 
-        public void View(bool show)
+        public void Show(UnityAction callBack)
         {
-            _curtain.DOKill();
-            if (show) Show();
-            else Hide();
+            //.SetAutoKill()
+            _curtain.DOFade(1.0f, _duration).SetEase(_easeIn).OnComplete(()=>callBack());
         }
 
-        private void Show() => _curtain.DOFade(0.0f, _duration).SetEase(_easeIn);
-        private void Hide() => _curtain.DOFade(0.0f, _duration).SetEase(_easeOut);
+        public void Hide()
+        {
+            _curtain.DOFade(0.0f, _duration).SetEase(_easeOut);
+        }
     }
 }

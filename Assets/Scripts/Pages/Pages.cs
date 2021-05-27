@@ -6,7 +6,7 @@
         GameA,
         GameB,
         Menu,
-        Result,
+        Warning,
         Settings
     }
 }
