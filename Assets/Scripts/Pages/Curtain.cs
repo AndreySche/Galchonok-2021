@@ -8,25 +8,28 @@ namespace Galchonok
     class Curtain
     {
         private Image _curtain;
-        private float _duration = 0.6f;
+        private float _duration = 0.5f;
         private Ease _easeIn = Ease.InQuart;
         private Ease _easeOut = Ease.OutQuart;
 
         public Curtain(Image curtain)
         {
             _curtain = curtain;
-            _curtain.gameObject.SetActive(true);
+            Off(false);
         }
 
         public void Show(UnityAction callBack)
         {
-            //.SetAutoKill()
+            Off(false);
             _curtain.DOFade(1.0f, _duration).SetEase(_easeIn).OnComplete(()=>callBack());
+            //.SetAutoKill()
         }
 
         public void Hide()
         {
-            _curtain.DOFade(0.0f, _duration).SetEase(_easeOut);
+            _curtain.DOFade(0.0f, _duration).SetEase(_easeOut).OnComplete( () => Off(true) );
         }
+
+        private void Off(bool off) => _curtain.gameObject.SetActive(!off);
     }
 }

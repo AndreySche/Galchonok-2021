@@ -1,25 +1,28 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using DG.Tweening;
 
 namespace Galchonok
 {
     public class GameA : PageInit
     {
-        [SerializeField] int _countAnswers = 4;
-        [SerializeField] int _countQuestions = 20;
-        [SerializeField] bool _right = true;
-        [SerializeField] GameObject _prefabGreen = null, _prefabOrange = null;
-        [SerializeField] Transform _areaQuestion = null, _areaAnswer = null, _areaProgressBar = null;
-        [SerializeField] List<GameObject> _nextPrew = null;
+        [SerializeField] private int _countAnswers = 4;
+        [SerializeField] private int _countQuestions = 20;
+        [SerializeField] private bool _right = true;
+        [SerializeField] private Text _questionField;
+        [SerializeField] private GameObject _prefabGreen = null;
+        [SerializeField] private Transform _areaAnswer = null, _areaProgressBar = null;
+        [SerializeField] private List<GameObject> _nextPrew = null;
+        [SerializeField] private Ease _ease = Ease.InOutQuint;
 
         [SerializeField] private GameObject _square, _border;
 
-        LibrarionOne _librarion;
-        LibrarionTwo _librarion2;
-        ProgressBar _progressBar;
+        private LibrarionOne _librarion;
+        private LibrarionTwo _librarion2;
+        private ProgressBar _progressBar;
 
-        void Awake()
+        private void Start()
         {
             if (_right) _librarion = new LibrarionOne(_countQuestions, _countAnswers);
             else _librarion2 = new LibrarionTwo(_countQuestions, _countAnswers);
@@ -37,10 +40,15 @@ namespace Galchonok
 
             bool[] click = SetClickButton(_countAnswers, book.Click);
             _progressBar.SetBorder(book.Index);
-            string question = _right ? $"{ book.Question.ToUpper() }?" : $"{ book.Question }";
+            string question = _right ? $"{ book.Question.ToUpper() }?" : $"{ FirstLetterToUp(book.Question) }";
+            float duration = (float)question.Length / 20f;
 
-            _areaQuestion.Destroy()
-                .Attach(question, _prefabOrange);
+            Sequence sequence = DOTween.Sequence();
+            sequence.Insert( 0, _questionField.DOText(question, duration).SetEase(_ease) );
+            sequence.Insert( 0, _questionField.DOFade(0.1f, duration/2).SetEase(Ease.Linear) );
+            sequence.Append( _questionField.DOFade(1f, duration/2).SetEase(Ease.Linear) );
+            sequence.OnComplete(() => sequence = null);
+            
             _areaAnswer.Destroy();
             for (int i = 0; i < _countAnswers; i++)
             {
@@ -73,5 +81,7 @@ namespace Galchonok
             }
             return numbers;
         }
+        
+        private string FirstLetterToUp(string str) => char.ToUpper(str[0]) + str.Substring(1);
     }
 }

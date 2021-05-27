@@ -70,5 +70,7 @@ namespace Galchonok
         {
             return list.OrderBy(arg => System.Guid.NewGuid()).Take(elementsCount).ToList();
         }
+        
+        //public static string FirstLetterToUp(this string str) => char.ToUpper(str[0]) + str.Substring(1);
     }
 }

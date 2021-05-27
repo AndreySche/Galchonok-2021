@@ -259,16 +259,15 @@ MonoBehaviour:
   _countAnswers: 4
   _countQuestions: 20
   _right: 1
+  _questionField: {fileID: 3715611297129768205}
   _prefabGreen: {fileID: 363348718313272973, guid: cb77105e009dc914ca653147675f4a98,
     type: 3}
-  _prefabOrange: {fileID: 363348718313272973, guid: 60f07647eff67eb4abe247f3b90a8622,
-    type: 3}
-  _areaQuestion: {fileID: 8327450553627302759}
   _areaAnswer: {fileID: 8327450552701618740}
   _areaProgressBar: {fileID: 1170280263643305312}
   _nextPrew:
   - {fileID: 827250547774291753}
   - {fileID: 827250549481713076}
+  _ease: 4
   _square: {fileID: 7670329277563197396, guid: 8c085e239c820594b9c90eca3b682107, type: 3}
   _border: {fileID: 7596641989007692345, guid: 49ecf88c4e714a742bc913ecb6965de6, type: 3}
 --- !u!1 &4131481515306636273
@@ -1792,6 +1791,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60f07647eff67eb4abe247f3b90a8622, type: 3}
+--- !u!114 &3715611297129768205 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 363348718314573850, guid: 60f07647eff67eb4abe247f3b90a8622,
+    type: 3}
+  m_PrefabInstance: {fileID: 3934562168034489623}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &3715611297128448923 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 363348718313272972, guid: 60f07647eff67eb4abe247f3b90a8622,
