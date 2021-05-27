@@ -19,16 +19,22 @@ namespace Galchonok
         public void LoadPage(Pages page)
         {
             _page = page;
-            Debug.Log($"hide: {page}");
             _curtain.Show(Load);
         }
 
         private void Load()
         {
             _area.Destroy();
-            Debug.Log($"show: {_page}");
             switch (_page)
             {
+                case Pages.GameA:
+                    GameA gameA = EaseLod<GameA>("GameA");
+                    gameA.Init(BackToMenu);
+                    break;
+                case Pages.GameB:
+                    GameA gameB = EaseLod<GameA>("GameB");
+                    gameB.Init(BackToMenu);
+                    break;
                 case Pages.Logo:
                     Logo logo = EaseLod<Logo>("Logo");
                     logo.Init(BackToMenu);
@@ -36,6 +42,10 @@ namespace Galchonok
                 case Pages.Menu:
                     Menu menu = EaseLod<Menu>("Menu");
                     menu.Init(this);
+                    break;
+                case Pages.Warning:
+                    Warning warning = EaseLod<Warning>("Warning");
+                    warning.Init(BackToMenu);
                     break;
                 default:
                     Error error = EaseLod<Error>("Error");

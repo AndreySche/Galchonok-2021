@@ -52,11 +52,6 @@ namespace Galchonok
                     .GetOrAddComponent<Button>()
                     .onClick.AddListener(() => ClickAnswer(correct, index, buttonIndex));
             }
-
-            //foreach (var child in book.Click)
-            //{
-            //    Debug.Log($"click: {child}");
-            //}
         }
 
         void ClickAnswer(bool correct, int index, int buttonIndex)
@@ -64,7 +59,6 @@ namespace Galchonok
             if (_right) _librarion.AddClickToHistory(buttonIndex);
             else _librarion2.AddClickToHistory(buttonIndex);
 
-            //_controller.beethoven.Click(correct);
             _progressBar.SetColor(index, correct);
             Next(true);
             if (!correct) Next(false);

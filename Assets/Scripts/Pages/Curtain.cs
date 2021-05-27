@@ -8,7 +8,7 @@ namespace Galchonok
     class Curtain
     {
         private Image _curtain;
-        private float _duration = 0.5f;
+        private float _duration = 0.6f;
         private Ease _easeIn = Ease.InQuart;
         private Ease _easeOut = Ease.OutQuart;
 
