@@ -80,10 +80,5 @@ namespace Galchonok
             }
             return answersString;
         }
-
-        public void AddClickToHistory(int buttonIndex)
-        {
-            _history[_current].HistoryClick(buttonIndex);
-        }
     }
 }

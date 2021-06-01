@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
-using DG.Tweening;
 
 namespace Galchonok
 {
@@ -13,7 +12,6 @@ namespace Galchonok
         [SerializeField] private ProgressBarView _progressBar;
         [SerializeField] private List<GameObject> _nextPrew;
 
-        private Sequence _sequence;
         private GameAview _view;
         private LibrarionOne _librarion;
         private HistoryToBook _book;
@@ -34,14 +32,12 @@ namespace Galchonok
             _book = _librarion.Next(next);
             _view.SetQuestion(_book);
             _answerArea.transform.Destroy();
-            _view.SetAnswers(_book, Click);
+            _view.SetAnswers( _book, Click );
             _progressBar.SetBorder(_book.Index);
         }
 
-        private void Click(int index)
+        private void Click(bool correct)
         {
-            bool correct = _book.Answers[index].BookId == _book.CorrectBook;
-            _librarion.AddClickToHistory(index);
             _progressBar.SetColor( correct );
             if( correct) Next(true);
         }

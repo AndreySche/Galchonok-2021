@@ -65,8 +65,8 @@ namespace Galchonok
 
         void ClickAnswer(bool correct, int index, int buttonIndex)
         {
-            if (_right) _librarion.AddClickToHistory(buttonIndex);
-            else        _librarion2.AddClickToHistory(buttonIndex);
+            /*if (_right) _librarion.AddClickToHistory(buttonIndex);
+            else        _librarion2.AddClickToHistory(buttonIndex);*/
 
             _progressBar.SetColor(index, correct);
             Next(true);

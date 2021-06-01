@@ -11,6 +11,7 @@ namespace Galchonok
         private Text _questionField;
         private int _answerCount;
         private GameObject _answerArea, _prefabGreen;
+        private HistoryToBook _book;
 
         public GameAview( GameAsettings settings, Text questionField, GameObject answerArea )
         {
@@ -23,7 +24,8 @@ namespace Galchonok
 
         public void SetQuestion(HistoryToBook book)
         {
-            string question = $"{book.Question.ToUpper()}?";
+            _book = book;
+            string question = $"{_book.Question.ToUpper()}?";
             float duration = 0.5f;
 
             Sequence sequence = DOTween.Sequence();
@@ -33,15 +35,15 @@ namespace Galchonok
             sequence.OnComplete(() => sequence = null);
         }
 
-        public void SetAnswers(HistoryToBook book, UnityAction<int> callback)
+        public void SetAnswers(HistoryToBook book, UnityAction<bool> callback)
         {
             for (int i = 0; i < _answerCount; i++)
             {
-                int index = i;
+                bool correct = _book.Answers[i].BookId == _book.CorrectBook;
                 rgb buttonColor = rgb.White;
                 _answerArea.transform.Attach(book.Answers[i].Word, _prefabGreen.SetNewColor(buttonColor))
                     .GetOrAddComponent<Button>()
-                    .onClick.AddListener( () => callback(index) );
+                    .onClick.AddListener( () => callback(correct) );
             }
         }
     }
