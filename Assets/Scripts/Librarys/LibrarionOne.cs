@@ -13,11 +13,11 @@ namespace Galchonok
         private LibA _libA = new LibA();
         private int _countQuestions, _countAnswers, _current;
 
-        public LibrarionOne(int countQuestions, int countAnswers)
+        public LibrarionOne( GameAsettings settings )
         {
             _current = -1;
-            _countQuestions = countQuestions;
-            _countAnswers = countAnswers;
+            _countQuestions = settings.Questions;
+            _countAnswers = settings.Answers;
             _bookList = _libA.BookList;
             int countBook = _bookList.Count;
             _booksRandom = new PullResort(countBook);

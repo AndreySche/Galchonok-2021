@@ -20,14 +20,23 @@ namespace Galchonok
 
             _buttonMenu[0].onClick.AddListener(() => Dispose(Pages.Logo));
             _buttonMenu[1].interactable = false;
-            _buttonMenu[2].interactable = false;
+            _buttonMenu[2].onClick.AddListener(() => Dispose(Pages.Settings));
             _buttonMenu[3].onClick.AddListener(() => Dispose(Pages.Warning));
         }
 
         private void Dispose(Pages page)
         {
-            foreach (var child in _buttonGame) child.onClick.RemoveAllListeners();
-            foreach (var child in _buttonMenu) child.onClick.RemoveAllListeners();
+            foreach (var child in _buttonGame)
+            {
+                child.onClick.RemoveAllListeners();
+                child.interactable = false;
+            }
+
+            foreach (var child in _buttonMenu)
+            {
+                child.onClick.RemoveAllListeners();
+                child.interactable = false;
+            }
             _pageSwitch.LoadPage(page);
         }
     }

@@ -5,7 +5,12 @@ class SafeAreaDetected
     private RectTransform _panel;
     private Rect _lastSafeArea = new Rect(0, 0, 0, 0);
 
-    public SafeAreaDetected(RectTransform panel) => _panel = panel;
+    public SafeAreaDetected(RectTransform panel)
+    {
+        //Application.targetFrameRate = 120;
+        Application.targetFrameRate = Screen.currentResolution.refreshRate;
+        _panel = panel;
+    } 
     
     public void Update()
     {

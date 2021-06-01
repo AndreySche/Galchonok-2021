@@ -12,9 +12,7 @@ namespace Galchonok
 
         private void Start()
         {
-            Application.targetFrameRate = 120;
             _safeArea = new SafeAreaDetected( GetComponent<RectTransform>() );
-            
             _pageSwitch = new PageSwitch(_curtain, _area);
             _pageSwitch.LoadPage(Pages.Logo);
         }

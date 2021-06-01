@@ -23,6 +23,7 @@ namespace Galchonok
         private void Dispose()
         {
             _back.onClick.RemoveAllListeners();
+            _back.interactable = false;
         }
     }
 }

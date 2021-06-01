@@ -28,27 +28,27 @@ namespace Galchonok
             switch (_page)
             {
                 case Pages.GameA:
-                    GameA gameA = EaseLod<GameA>("GameA");
+                    GameA gameA = EasyLoad<GameA>("GameA");
                     gameA.Init(BackToMenu);
                     break;
-                case Pages.GameB:
+                /*case Pages.GameB:
                     GameA gameB = EaseLod<GameA>("GameB");
                     gameB.Init(BackToMenu);
-                    break;
+                    break;*/
                 case Pages.Logo:
-                    Logo logo = EaseLod<Logo>("Logo");
+                    Logo logo = EasyLoad<Logo>("Logo");
                     logo.Init(BackToMenu);
                     break;
                 case Pages.Menu:
-                    Menu menu = EaseLod<Menu>("Menu");
+                    Menu menu = EasyLoad<Menu>("Menu");
                     menu.Init(this);
                     break;
                 case Pages.Warning:
-                    Warning warning = EaseLod<Warning>("Warning");
+                    Warning warning = EasyLoad<Warning>("Warning");
                     warning.Init(BackToMenu);
                     break;
                 default:
-                    Error error = EaseLod<Error>("Error");
+                    Error error = EasyLoad<Error>("Error");
                     error.Init(BackToMenu);
                     break;
                     
@@ -56,7 +56,7 @@ namespace Galchonok
             _curtain.Hide();
         }
         
-        private T EaseLod<T>(string file) where T : Component
+        private T EasyLoad<T>(string file) where T : Component
         {
             return ResourceLoader.LoadAndInstantiateObject<T>(new ResourcePath {PathResource = "Pages/" + file}, _area, false); 
         } 
