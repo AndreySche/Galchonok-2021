@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a211212d-0105-471d-816e-f2a4d6974836" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/GameA.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameAold1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameAold1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameAsettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameAsettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameAsettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameAsettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameAview.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameAview.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameSelect.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/GameSelect.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/PullResort.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/PullResort.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/UtilitesA.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/UtilitesA.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameA/UtilitesA.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/UtilitesA.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/AnswerTypeOne.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/AnswerTypeOne.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Librarys.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/Answer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/Answer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/ChapterA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/ChapterA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/HistoryAnswer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/HistoryAnswer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/HistoryBook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/HistoryBook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/HistoryToBook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/HistoryToBook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/LibA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/LibA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/LibrarionOne.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/LibrarionOne.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/LibrarionTwo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Librarys/LibrarionTwo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV3/Expample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV3/Expample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV3/ProgressBar.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV3/ProgressBar.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV3/ProgressBarSegment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV3/ProgressBarSegment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SafeAreaDetected.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SafeAreaDetected.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Editor/2019.4.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Editor/2019.4.15f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Selectable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BounceButton/BounceButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Kdelo/Assets/Scripts/LoadData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/52081540-C3EF-4725-9320-321CED3D5414/23/a1c0d49c/IEventSystemHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/52081540-C3EF-4725-9320-321CED3D5414/23/bc519dbf/IPointerClickHandler.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tmp/Cookies.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BounceButton/BounceButtonSettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BounceButton/Editor/BounceButtonEditor.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BounceButton/BounceButton.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pages/Curtain.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pages/PageInit.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameSelect.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarSegment.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarV4.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarLoad.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pages/Menu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameAction.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameAsetQuestion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameAviewQuestion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameAtwo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameAold1.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/PullResort.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Librarys/LibrarionOne.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Librarys/LibrarionTwo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/RandomPull/RandomRange.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/RandomRange/RandomRange.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameA.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameAsettings.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/GameAview.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibraryOne.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LybrarionTypeOne.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameA/UtilitesA.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Librarys/HistoryToBook.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Answer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/AnswerTypeOne.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Round.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/AnswerRound.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/RoundTypeOne.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Filing.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/BookRound.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/AnswersController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/QuestionController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/AnswersBlender.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SafeAreaDetected.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1t59GeDRhcuvgl3ZQDL1RE8lFz3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a211212d-0105-471d-816e-f2a4d6974836" name="Default Changelist" comment="" />
+      <created>1622048001188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622048001188</updated>
+      <workItem from="1622048248905" duration="36877000" />
+      <workItem from="1622450320436" duration="635000" />
+      <workItem from="1622543631075" duration="7886000" />
+      <workItem from="1622552977404" duration="5270000" />
+      <workItem from="1624607533724" duration="48523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

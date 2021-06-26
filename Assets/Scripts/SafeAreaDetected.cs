@@ -39,6 +39,10 @@ class SafeAreaDetected : MonoBehaviour
         Panel.anchorMin = anchorMin;
         Panel.anchorMax = anchorMax;
 
+<<<<<<< Updated upstream
         Debug.LogFormat($"New safe area applied: x={r.x}, y={r.y}, w={r.width}, h={r.height} on full extents w={Screen.width}, h={Screen.height}");
+=======
+        //Debug.LogFormat($"New safe area applied: x={rect.x}, y={rect.y}, w={rect.width}, h={rect.height} on full extents w={Screen.width}, h={Screen.height}");
+>>>>>>> Stashed changes
     }
 }
