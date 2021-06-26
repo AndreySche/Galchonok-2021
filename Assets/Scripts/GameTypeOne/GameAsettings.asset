@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f5476600252c94faf4eab56485641e, type: 3}
+  m_Name: GameAsettings
+  m_EditorClassIdentifier: 
+  Answers: 4
+  Questions: 20
+  Prefabs:
+  - {fileID: 363348718313272973, guid: 60f07647eff67eb4abe247f3b90a8622, type: 3}
+  - {fileID: 363348718313272973, guid: cb77105e009dc914ca653147675f4a98, type: 3}
+  QuestionEase: 16
