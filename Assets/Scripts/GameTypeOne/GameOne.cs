@@ -6,7 +6,7 @@ namespace Galchonok
 {
     public class GameOne : PageInit
     {
-        [SerializeField] private GameAsettings _settings;
+        [SerializeField] private TypeOneSettings _settings;
         [SerializeField] private GameObject _questionField;
         [SerializeField] private GameObject _answersArea;
         [SerializeField] private ProgressBarView _progressBar;

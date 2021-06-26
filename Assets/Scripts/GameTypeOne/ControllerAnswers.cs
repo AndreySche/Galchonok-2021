@@ -14,7 +14,7 @@ namespace Galchonok
         private LibraryOne _library;
         private Dictionary<int, List<AnswerRound>> _clickHistory;
 
-        public ControllerAnswers(GameAsettings settings, GameObject area, LibraryOne library, UnityAction<bool> callback)
+        public ControllerAnswers(TypeOneSettings settings, GameObject area, LibraryOne library, UnityAction<bool> callback)
         {
             _area = area;
             _library = library;

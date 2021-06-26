@@ -2,15 +2,15 @@
 
 namespace Galchonok
 {
-    public class QuestionA
+    public class ChapterA
     {
         public string Question;
-        public List<string> Answer;
+        public List<string> Answers;
 
-        public QuestionA( string question, List<string> answer)
+        public ChapterA(string question, List<string> answers)
         {
             Question = question;
-            Answer = answer;
+            Answers = answers;
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Galchonok
     {
         private List<BookRound> _history;
 
-        public LibrarionTypeOne(GameAsettings settings, LibraryOne library)
+        public LibrarionTypeOne(TypeOneSettings settings, LibraryOne library)
         {
             _history = new List<BookRound>();
             RandomRange book = new RandomRange(library.Book.Count);
@@ -55,8 +55,6 @@ namespace Galchonok
         {
             foreach (var round in game)
             {
-                List<int> answrs = new List<int>();
-
                 string answers = "";
                 foreach (var answerChild in round.Answers)
                 {
