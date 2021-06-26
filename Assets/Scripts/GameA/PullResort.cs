@@ -16,7 +16,7 @@ namespace Galchonok
             _max = count;
             Numbers = new List<int>();
             for (int i = 0; i < _max; i++) Numbers.Add(i);
-            Numbers = Numbers.RandomList(Numbers.Count);
+            Numbers = Numbers.RandomList();
         }
 
         public int Next(int drop = -1)

@@ -5,15 +5,15 @@ namespace Galchonok
     public class HistoryToBook
     {
         public int Index;
-        public int CorrectBook;
+        public int CorrectBookIndex;
         public string Question;
         public List<Answer> Answers;
         public List<int> Click;
 
-        public HistoryToBook(int index, int correctBook, string question, List<Answer> answers, List<int> click)
+        public HistoryToBook(int index, int correctBookIndex, string question, List<Answer> answers, List<int> click)
         {
             Index = index;
-            CorrectBook = correctBook;
+            CorrectBookIndex = correctBookIndex;
             Question = question;
             Answers = answers;
             Click = click;

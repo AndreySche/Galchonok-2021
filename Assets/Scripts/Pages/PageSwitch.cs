@@ -31,10 +31,10 @@ namespace Galchonok
                     GameA gameA = EasyLoad<GameA>("GameA");
                     gameA.Init(BackToMenu);
                     break;
-                /*case Pages.GameB:
-                    GameA gameB = EaseLod<GameA>("GameB");
+                case Pages.GameB:
+                    GameOne gameB = EasyLoad<GameOne>("GameB");
                     gameB.Init(BackToMenu);
-                    break;*/
+                    break;
                 case Pages.Logo:
                     Logo logo = EasyLoad<Logo>("Logo");
                     logo.Init(BackToMenu);

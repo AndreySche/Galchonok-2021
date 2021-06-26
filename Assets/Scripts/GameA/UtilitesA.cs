@@ -66,9 +66,10 @@ namespace Galchonok
             return transform;
         }
 
-        public static List<T> RandomList<T>(this IEnumerable<T> list, int elementsCount)
+        public static List<T> RandomList<T>(this IEnumerable<T> list)
         {
-            return list.OrderBy(arg => System.Guid.NewGuid()).Take(elementsCount).ToList();
+            //Debug.Log(String.Join(", ", _questionsIndexList.ToArray()));
+            return list.OrderBy(arg => System.Guid.NewGuid()).Take(list.Count()).ToList();
         }
         
         //public static string FirstLetterToUp(this string str) => char.ToUpper(str[0]) + str.Substring(1);

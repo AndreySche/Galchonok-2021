@@ -53,7 +53,7 @@ namespace Galchonok
             _areaAnswer.Destroy();
             for (int i = 0; i < _countAnswers; i++)
             {
-                bool correct = book.CorrectBook == book.Answers[i].BookId;
+                bool correct = book.CorrectBookIndex == book.Answers[i].BookId;
                 int index = book.Index;
                 int buttonIndex = i;
                 rgb buttonColor = click[i] ? (correct ? rgb.LightGreen : rgb.LightYellow) : rgb.White;

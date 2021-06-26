@@ -37,9 +37,10 @@ namespace Galchonok
 
         public void SetAnswers(HistoryToBook book, UnityAction<bool> callback)
         {
+            _answerArea.transform.Destroy();
             for (int i = 0; i < _answerCount; i++)
             {
-                bool correct = _book.Answers[i].BookId == _book.CorrectBook;
+                bool correct = _book.Answers[i].BookId == _book.CorrectBookIndex;
                 rgb buttonColor = rgb.White;
                 _answerArea.transform.Attach(book.Answers[i].Word, _prefabGreen.SetNewColor(buttonColor))
                     .GetOrAddComponent<Button>()

@@ -72,7 +72,7 @@ namespace Galchonok
                 chapterIndex = _chaptersForAnswerRandom[bookIndex2].Next();
                 answersList.Add(new HistoryAnswer(bookIndex2, chapterIndex, -1));
             }
-            return answersList.RandomList(answersList.Count);
+            return answersList.RandomList();
         }
 
         private List<Answer> AnswersString(List<HistoryAnswer> list)
