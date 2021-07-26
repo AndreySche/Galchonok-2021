@@ -265,6 +265,7 @@ MonoBehaviour:
   _nextPrew:
   - {fileID: 827250547774291753}
   - {fileID: 827250549481713076}
+  _imageTarget: {fileID: 8562710563796175233}
 --- !u!1 &4131481515306636273
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,7 +932,7 @@ PrefabInstance:
     - target: {fileID: 363348718313272972, guid: 60f07647eff67eb4abe247f3b90a8622,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 350
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 363348718313272972, guid: 60f07647eff67eb4abe247f3b90a8622,
         type: 3}
@@ -957,6 +958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GameA Button Orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 363348718313272973, guid: 60f07647eff67eb4abe247f3b90a8622,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 363348718314573850, guid: 60f07647eff67eb4abe247f3b90a8622,
         type: 3}
@@ -998,6 +1004,41 @@ PrefabInstance:
       propertyPath: m_Padding.m_Left
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 968013409053237895, guid: 60f07647eff67eb4abe247f3b90a8622,
+        type: 3}
+      propertyPath: m_Padding.m_Bottom
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633786828840549526, guid: 60f07647eff67eb4abe247f3b90a8622,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633786828840549527, guid: 60f07647eff67eb4abe247f3b90a8622,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 130
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633786828840549527, guid: 60f07647eff67eb4abe247f3b90a8622,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 280
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633786828840549527, guid: 60f07647eff67eb4abe247f3b90a8622,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -145
+      objectReference: {fileID: 0}
+    - target: {fileID: 4633786828840549527, guid: 60f07647eff67eb4abe247f3b90a8622,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5602384598909852856, guid: 60f07647eff67eb4abe247f3b90a8622,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8527524524402790738, guid: 60f07647eff67eb4abe247f3b90a8622,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1021,7 +1062,7 @@ PrefabInstance:
     - target: {fileID: 8527524524402790738, guid: 60f07647eff67eb4abe247f3b90a8622,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 182.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8527524524402790738, guid: 60f07647eff67eb4abe247f3b90a8622,
         type: 3}
@@ -1030,6 +1071,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60f07647eff67eb4abe247f3b90a8622, type: 3}
+--- !u!114 &8562710563796175233 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4633786828840549526, guid: 60f07647eff67eb4abe247f3b90a8622,
+    type: 3}
+  m_PrefabInstance: {fileID: 3934562168034489623}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &3715611297128448923 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 363348718313272972, guid: 60f07647eff67eb4abe247f3b90a8622,
@@ -1043,6 +1096,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8327450552701618740}
     m_Modifications:
+    - target: {fileID: 363348718313272689, guid: cb77105e009dc914ca653147675f4a98,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 363348718313272689, guid: cb77105e009dc914ca653147675f4a98,
         type: 3}
       propertyPath: m_Color.b

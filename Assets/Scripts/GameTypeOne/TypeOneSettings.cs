@@ -11,8 +11,7 @@ namespace Galchonok
     {
         public int Answers = 4;
         public int Questions = 20;
-        
         public List<GameObject> Prefabs;
-        public Ease QuestionEase = Ease.InOutQuint;
+        public List<Sprite> images;
     }
 }

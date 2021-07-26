@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a211212d-0105-471d-816e-f2a4d6974836" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Json/GameOne.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameA Button Orange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameA Button Orange.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/GameA.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/BookRound.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterBook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/BookRound.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterBook.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/Button.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/Button.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/Paginator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/Paginator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/Paginator.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/Paginator.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/PaginatorConstruct.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/PaginatorConstruct.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/_examplePaginatorController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/_examplePaginatorController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/ic_stat_arrow_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_packages/Paginator/ic_stat_arrow_left.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +48,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/BounceButton/BounceButtonSettings.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BounceButton/Editor/BounceButtonEditor.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BounceButton/BounceButton.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Pages/Curtain.cs" />
@@ -103,15 +88,17 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SafeAreaDetected.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Main.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibraryOne.cs" />
       <option value="$PROJECT_DIR$/Assets/Resources/Json/GameOne.json" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/ImageAnime.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1t59GeDRhcuvgl3ZQDL1RE8lFz3" />
@@ -169,7 +156,7 @@
       <workItem from="1622552977404" duration="5270000" />
       <workItem from="1624607533724" duration="48523000" />
       <workItem from="1624707865863" duration="1077000" />
-      <workItem from="1627279477252" duration="4172000" />
+      <workItem from="1627279477252" duration="9206000" />
     </task>
     <servers />
   </component>

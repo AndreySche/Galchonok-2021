@@ -12,6 +12,7 @@ namespace Galchonok
         [SerializeField] private GameObject _answersArea;
         [SerializeField] private ProgressBarView _progressBar;
         [SerializeField] private List<GameObject> _nextPrew;
+        [SerializeField] private Image _imageTarget;
 
         private ControllerQuestion _controllerQuestion;
         private ControllerAnswers _controllerAnswers;
@@ -25,7 +26,7 @@ namespace Galchonok
             _step = 0;
             _max = _settings.Questions - 1;
             _library = new LibraryOne();
-            _controllerQuestion = new ControllerQuestion(_settings, _questionField, _library);
+            _controllerQuestion = new ControllerQuestion(_settings, _questionField, _library, _imageTarget);
             _controllerAnswers = new ControllerAnswers(_settings, _answersArea, _library, Click);
             _librarion = new LibrarionTypeOne(_settings, _library);
             _progressBar.Init(_settings);
