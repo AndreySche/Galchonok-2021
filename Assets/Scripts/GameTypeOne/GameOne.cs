@@ -6,6 +6,7 @@ namespace Galchonok
 {
     public class GameOne : PageInit
     {
+        #region Variables
         [SerializeField] private TypeOneSettings _settings;
         [SerializeField] private GameObject _questionField;
         [SerializeField] private GameObject _answersArea;
@@ -17,6 +18,7 @@ namespace Galchonok
         private LibrarionTypeOne _librarion;
         private LibraryOne _library;
         private int _step, _max;
+        #endregion
 
         private void Start()
         {
@@ -32,9 +34,9 @@ namespace Galchonok
 
         private void Next()
         {
-            BookRound round = _librarion.Next(_step);
-            _controllerQuestion.Set(round);
-            _controllerAnswers.Set(round, _step);
+            ChapterBook chapter = _librarion.Next(_step);
+            _controllerQuestion.Set(chapter);
+            _controllerAnswers.Set(chapter, _step);
             _progressBar.SetBorder(_step);
         }
 

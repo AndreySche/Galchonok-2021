@@ -5,11 +5,11 @@ namespace Galchonok
 {
     public class LibrarionTypeOne
     {
-        private List<BookRound> _history;
+        private List<ChapterBook> _history;
 
         public LibrarionTypeOne(TypeOneSettings settings, LibraryOne library)
         {
-            _history = new List<BookRound>();
+            _history = new List<ChapterBook>();
             RandomRange book = new RandomRange(library.Book.Count);
             RandomRange indexBook = new RandomRange(library.Book.Count);
 
@@ -36,22 +36,22 @@ namespace Galchonok
                     answers.Add(new AnswerRound(bookAnswersIndex, chapterAnswersIndex, indexAnswer[bookAnswersIndex].Next()));
                 }
 
-                _history.Add(new BookRound(currentBook, currentChapter, answers.RandomList() ));
+                _history.Add(new ChapterBook(currentBook, currentChapter, answers.RandomList() ));
             }
 
             //DebugJson(_history);
         }
 
-        public BookRound Next(int current)
+        public ChapterBook Next(int current)
         {
             int bookIndex = _history[current].Book;
             int chapterIndex = _history[current].Chapter;
             List<AnswerRound> answers = _history[current].Answers;
 
-            return new BookRound(bookIndex, chapterIndex, answers);
+            return new ChapterBook(bookIndex, chapterIndex, answers);
         }
 
-        private void DebugJson(List<BookRound> game)
+        private void DebugJson(List<ChapterBook> game)
         {
             foreach (var round in game)
             {

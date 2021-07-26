@@ -9,7 +9,7 @@ namespace Galchonok
     public class ControllerAnswers
     {
         private GameObject _area, _prefabGreen;
-        private BookRound _bookRound;
+        private ChapterBook _chapterBook;
         private UnityAction<bool> _callback;
         private LibraryOne _library;
         private Dictionary<int, List<AnswerRound>> _clickHistory;
@@ -23,7 +23,7 @@ namespace Galchonok
             _clickHistory = new Dictionary<int, List<AnswerRound>>();
         }
 
-        public void Set(BookRound round, int step)
+        public void Set(ChapterBook round, int step)
         {
             _area.transform.Destroy();
             foreach (var answer in round.Answers)

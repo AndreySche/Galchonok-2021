@@ -17,9 +17,9 @@ namespace Galchonok
             _library = library;
         }
 
-        public void Set(BookRound round)
+        public void Set(ChapterBook chapter)
         {
-            string question = $"{_library.Book[round.Book][round.Chapter].Question.ToUpper()}?";
+            string question = $"{_library.Book[chapter.Book][chapter.Chapter].Question.ToUpper()}?";
             float duration = 0.5f;
 
             Sequence sequence = DOTween.Sequence();

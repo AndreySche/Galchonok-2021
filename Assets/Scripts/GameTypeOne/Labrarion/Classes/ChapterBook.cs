@@ -2,14 +2,14 @@
 
 namespace Galchonok
 {
-    public class BookRound
+    public class ChapterBook
     {
         public int Book { get; }
         public int Chapter { get; }
         
         public List<AnswerRound> Answers { get; }
 
-        public BookRound(int book, int chapter, List<AnswerRound> answers)
+        public ChapterBook(int book, int chapter, List<AnswerRound> answers)
         {
             Book = book;
             Chapter = chapter;
