@@ -14,7 +14,7 @@ namespace Galchonok
         {
             _safeArea = new SafeAreaDetected( GetComponent<RectTransform>() );
             _pageSwitch = new PageSwitch(_curtain, _area);
-            _pageSwitch.LoadPage(Pages.Logo);
+            _pageSwitch.LoadPage(Pages.Menu);
         }
 
         private void Update()

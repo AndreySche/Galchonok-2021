@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 35f5476600252c94faf4eab56485641e, type: 3}
-  m_Name: GameAsettings
+  m_Name: TypeOneSettings
   m_EditorClassIdentifier: 
   Answers: 4
   Questions: 20

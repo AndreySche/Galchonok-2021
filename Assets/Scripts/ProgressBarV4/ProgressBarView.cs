@@ -24,6 +24,7 @@ namespace Galchonok
             }
 
             SetBorder(0);
+            Destroy(square);
         }
 
         public void SetBorder(int index)

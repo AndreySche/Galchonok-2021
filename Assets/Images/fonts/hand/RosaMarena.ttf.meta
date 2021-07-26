@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c5f5eab95033c884ea46d9c224c86a22
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Rosa Marena
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a871890be285a6d40954df9c48bac659, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
