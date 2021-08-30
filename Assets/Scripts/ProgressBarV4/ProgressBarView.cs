@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Galchonok
 {
@@ -20,18 +21,20 @@ namespace Galchonok
 
             for (int i = 0; i < settings.Questions; i++)
             {
-                _list.Add( _area.Attach($"square{i}", square).SetNewColor(rgb.Yellow) );
+                _list.Add( _area.Attach($"square{i}", square).SetNewColor(rgb.Blue) );
             }
-
-            SetBorder(0);
             Destroy(square);
         }
 
         public void SetBorder(int index)
         {
             _prewSelectSquare?.transform.Destroy();
+            Destroy(_prewSelectSquare?.GetComponent<LayoutElement>());
             _prewSelectSquare = _list[index];
             _prewSelectSquare.transform.Attach( "border", _border);
+            var layout = _prewSelectSquare.GetOrAddComponent<LayoutElement>();
+            layout.minHeight = 90;
+            layout.minWidth = 15;
         }
 
         public void SetColor(bool correct)

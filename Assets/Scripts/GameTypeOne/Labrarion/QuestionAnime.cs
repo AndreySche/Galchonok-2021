@@ -31,11 +31,18 @@ namespace Galchonok
             sequence.Insert(0, _target.DOFade(0.1f, duration / 2.5f).SetEase(Ease.Linear));
             sequence.OnComplete(() =>
                 {
-                    _target.sprite = _imagesList[bookId];
-                    sequence.Append(_target.DOFade(1f, duration / 2.5f).SetEase(Ease.Linear));
-                    sequence.OnComplete(() => sequence = null);
+                    sequence = null;
+                    AnimImageNext(duration, bookId);
                 }
             );
+        }
+
+        private void AnimImageNext(float duration, int bookId)
+        {
+            _target.sprite = _imagesList[bookId];
+            Sequence sequence = DOTween.Sequence();
+            sequence.Append(_target.DOFade(1f, duration / 2.5f).SetEase(Ease.Linear));
+            sequence.OnComplete(() => sequence = null);
         }
         
         private void AnimeQuestion(float duration, string question)

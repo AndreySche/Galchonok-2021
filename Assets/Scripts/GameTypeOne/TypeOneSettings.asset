@@ -15,9 +15,8 @@ MonoBehaviour:
   Answers: 4
   Questions: 20
   Prefabs:
-  - {fileID: 363348718313272973, guid: 60f07647eff67eb4abe247f3b90a8622, type: 3}
-  - {fileID: 363348718313272973, guid: cb77105e009dc914ca653147675f4a98, type: 3}
-  QuestionEase: 16
+  - {fileID: 6317344192603923398, guid: 22626f904ecc0a54aa1e3ca4311f8307, type: 3}
+  - {fileID: 8700073906935820485, guid: 6456955f459e2384b800cc8161ef7ea2, type: 3}
   images:
   - {fileID: 5248389315869433216, guid: 7f82228b2a1b9a5459c00de01ea76b62, type: 3}
   - {fileID: -702305964579408705, guid: 7f82228b2a1b9a5459c00de01ea76b62, type: 3}

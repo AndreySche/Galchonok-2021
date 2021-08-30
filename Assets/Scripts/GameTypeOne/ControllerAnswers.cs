@@ -40,10 +40,10 @@ namespace Galchonok
         private rgb GetPrefabColor(int step, bool correct, AnswerRound answer)
         {
             if (!_clickHistory.ContainsKey(step)) _clickHistory[step] = new List<AnswerRound>();
-            if (Verify(step, answer)) return correct ? rgb.LightGreen : rgb.LightYellow;
+            if (Verify(step, answer)) return correct ? rgb.Green : rgb.Red;
 
-            return correct ? rgb.LightGreen : rgb.White;
-            //return rgb.White;
+            return correct ? rgb.LightGreen : rgb.Blue;
+            //return rgb.Blue;
         }
 
         private void Click(int step, bool correct, AnswerRound answer)

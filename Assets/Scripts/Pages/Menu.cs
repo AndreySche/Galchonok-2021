@@ -4,38 +4,38 @@ using UnityEngine.UI;
 
 namespace Galchonok
 {
-    [RequireComponent(typeof(Button))]
+    //[RequireComponent(typeof(Button))]
     class Menu : MonoBehaviour
     {
-        [SerializeField] List<Button> _buttonGame = null;
-        [SerializeField] List<Button> _buttonMenu = null;
+        [SerializeField] List<GameObject> _buttonGame = null;
+        [SerializeField] List<GameObject> _buttonMenu = null;
         private PageSwitch _pageSwitch;
 
         public void Init(PageSwitch pageSwitch)
         {
             _pageSwitch = pageSwitch;
-            _buttonGame[0].onClick.AddListener(() => Dispose(Pages.GameA));
-            _buttonGame[1].onClick.AddListener(() => Dispose(Pages.GameB));
-            _buttonGame[2].interactable = false;
+            _buttonGame[0].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.GameA));
+            _buttonGame[1].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.GameB));
+            _buttonGame[2].GetOrAddComponent<Button>().interactable = false;
 
-            _buttonMenu[0].onClick.AddListener(() => Dispose(Pages.Logo));
-            _buttonMenu[1].interactable = false;
-            _buttonMenu[2].onClick.AddListener(() => Dispose(Pages.Settings));
-            _buttonMenu[3].onClick.AddListener(() => Dispose(Pages.Warning));
+            _buttonMenu[0].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.Logo));
+            _buttonMenu[1].GetOrAddComponent<Button>().interactable = false;
+            _buttonMenu[2].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.Settings));
+            _buttonMenu[3].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.Warning));
         }
 
         private void Dispose(Pages page)
         {
             foreach (var child in _buttonGame)
             {
-                child.onClick.RemoveAllListeners();
-                child.interactable = false;
+                child.GetOrAddComponent<Button>().onClick.RemoveAllListeners();
+                child.GetOrAddComponent<Button>().interactable = false;
             }
 
             foreach (var child in _buttonMenu)
             {
-                child.onClick.RemoveAllListeners();
-                child.interactable = false;
+                child.GetOrAddComponent<Button>().onClick.RemoveAllListeners();
+                child.GetOrAddComponent<Button>().interactable = false;
             }
             _pageSwitch.LoadPage(page);
         }

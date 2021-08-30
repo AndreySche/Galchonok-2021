@@ -7,6 +7,7 @@
         Red,
         Green,
         LightGreen,
-        White
+        White,
+        Blue
     }
 }

@@ -28,7 +28,7 @@ namespace Galchonok
             switch (_page)
             {
                 case Pages.GameA:
-                    GameOne gameA = EasyLoad<GameOne>("GameA");
+                    GameOne gameA = EasyLoad<GameOne>("GameС");
                     gameA.Init(BackToMenu);
                     break;
                 case Pages.GameB:
