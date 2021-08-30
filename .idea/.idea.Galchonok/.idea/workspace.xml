@@ -6,52 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="a211212d-0105-471d-816e-f2a4d6974836" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/DOTween.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Border.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Border.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameA Button Green.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameA Button Green.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameA Button Orange.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameA Button Orange.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button Green.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button Orange.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button Orange.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ProgressBarV4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ProgressBarV4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameA.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/GameA.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/Menu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameС.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/GameС.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Buttons.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Buttons.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameA.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameA.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/BounceButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/BounceButton.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/Data.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/Data/Bounce Button Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/Data/Bounce Button Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/Editor/BounceButtonEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/Editor/BounceButtonEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/ScriptableObject.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/ScriptableObject/BounceButtonSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BounceButton/ScriptableObject/BounceButtonSettings.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/rgb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tools/rgb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DeviceSimulatorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DeviceSimulatorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,6 +170,7 @@
       <workItem from="1630226383406" duration="1013000" />
       <workItem from="1630227886663" duration="733000" />
       <workItem from="1630257792611" duration="7908000" />
+      <workItem from="1630326687849" duration="2431000" />
     </task>
     <servers />
   </component>

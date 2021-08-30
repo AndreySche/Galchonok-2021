@@ -21,7 +21,7 @@ namespace Galchonok
 
             for (int i = 0; i < settings.Questions; i++)
             {
-                _list.Add( _area.Attach($"square{i}", square).SetNewColor(rgb.Blue) );
+                _list.Add( _area.Attach($"square{i}", square).SetNewColor(rgb.LightGreen) );
             }
             Destroy(square);
         }

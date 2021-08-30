@@ -42,8 +42,8 @@ namespace Galchonok
             if (!_clickHistory.ContainsKey(step)) _clickHistory[step] = new List<AnswerRound>();
             if (Verify(step, answer)) return correct ? rgb.Green : rgb.Red;
 
-            return correct ? rgb.LightGreen : rgb.Blue;
-            //return rgb.Blue;
+            //return correct ? rgb.LightYellow : rgb.White;
+            return rgb.White;
         }
 
         private void Click(int step, bool correct, AnswerRound answer)
