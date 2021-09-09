@@ -2,12 +2,12 @@
 {
     public enum rgb
     {
-        Yellow,
-        LightYellow,
+        Rose,
+        //LightYellow,
         Red,
         Green,
         LightGreen,
         White,
-        Blue
+        //Blue
     }
 }

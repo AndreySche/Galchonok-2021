@@ -25,9 +25,10 @@ namespace Galchonok
             {
                 int currentBook = book.Next();
                 int currentChapter = indexChapter[currentBook].Next();
+                int currentAnswer = indexAnswer[currentBook].Next();
 
                 List<AnswerRound> answers = new List<AnswerRound>();
-                answers.Add(new AnswerRound(currentBook, currentChapter, indexAnswer[currentBook].Next()));
+                answers.Add(new AnswerRound(currentBook, currentChapter, currentAnswer));
 
                 for (int j = 1; j < settings.Answers; j++)
                 {
@@ -36,7 +37,7 @@ namespace Galchonok
                     answers.Add(new AnswerRound(bookAnswersIndex, chapterAnswersIndex, indexAnswer[bookAnswersIndex].Next()));
                 }
 
-                _history.Add(new ChapterBook(currentBook, currentChapter, answers.RandomList() ));
+                _history.Add(new ChapterBook(currentBook, currentChapter, currentAnswer, answers.RandomList() ));
             }
 
             //DebugJson(_history);
@@ -46,9 +47,10 @@ namespace Galchonok
         {
             int bookIndex = _history[current].Book;
             int chapterIndex = _history[current].Chapter;
+            int answerIndex = _history[current].Answer;
             List<AnswerRound> answers = _history[current].Answers;
 
-            return new ChapterBook(bookIndex, chapterIndex, answers);
+            return new ChapterBook(bookIndex, chapterIndex, answerIndex, answers);
         }
 
         private void DebugJson(List<ChapterBook> game)
@@ -63,7 +65,7 @@ namespace Galchonok
                     answers += $"Answer: {answerChild.Answer}; </color>";
                 }
 
-                Debug.Log($"<b>Book: {round.Book}; Chapter: {round.Chapter};</b> Answers: {answers}");
+                Debug.Log($"<b>Book: {round.Book}; Chapter: {round.Chapter};</b> Answer: {round.Answer}\nAnswers: {answers}");
             }
         }
     }

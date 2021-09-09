@@ -36,8 +36,8 @@ namespace Galchonok
         private void Next()
         {
             ChapterBook chapter = _librarion.Next(_step);
-            _controllerQuestion.Set(chapter);
-            _controllerAnswers.Set(chapter, _step);
+            _controllerQuestion.Set(chapter, _gameId);
+            _controllerAnswers.Set(chapter, _gameId, _step);
             _progressBar.SetBorder(_step);
         }
 

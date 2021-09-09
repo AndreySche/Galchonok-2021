@@ -64,11 +64,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.58431375}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 6450818750448402437, guid: c189dbb8541ba514ba23ddf0325caaa3,
+  m_Sprite: {fileID: 2499628445522670485, guid: 688757f1007f9bb43bbe6c208a3e3ab2,
     type: 3}
   m_Type: 1
   m_PreserveAspect: 0
@@ -117,6 +118,7 @@ MonoBehaviour:
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!114 &5574701852995985116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +196,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.7068625, b: 0.33962262, a: 0.3529412}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -233,6 +236,7 @@ MonoBehaviour:
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &5574701854072430731
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,6 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _backButton: {fileID: 5574701852995985114}
+  _gameId: 0
 --- !u!1 &6389290619923014449
 GameObject:
   m_ObjectHideFlags: 0
@@ -352,12 +357,13 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.4716981, g: 0.1847371, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 16baca9cfa20ca948954b164de72e14f, type: 3}
+    m_Font: {fileID: 12800000, guid: 54b4b069341cfde4695e4a55aa7f4d1b, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -431,12 +437,13 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 16baca9cfa20ca948954b164de72e14f, type: 3}
+    m_Font: {fileID: 12800000, guid: 54b4b069341cfde4695e4a55aa7f4d1b, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0

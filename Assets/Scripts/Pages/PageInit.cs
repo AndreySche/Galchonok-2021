@@ -9,14 +9,16 @@ namespace Galchonok
     {
         [SerializeField] private GameObject _backButton;
         private Button _back;
-        
-        public void Init(UnityAction callBack)
+        [HideInInspector] public int _gameId;
+
+        public void Init(UnityAction callBack, int gameId = 0)
         {
+            _gameId = gameId;
             _back = _backButton.GetOrAddComponent<Button>();
             _back.onClick.AddListener(() =>
             {
-                 Dispose();
-                 callBack();
+                Dispose();
+                callBack();
             });
         }
 

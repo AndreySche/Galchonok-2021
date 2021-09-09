@@ -55,14 +55,12 @@ namespace Galchonok
         public static GameObject SetNewColor(this GameObject transform, rgb paint)
         {
             Dictionary<rgb, Color32> color = new Dictionary<rgb, Color32>();
-            color.Add(rgb.Red, new Color32(255, 189, 59,255));
-            color.Add(rgb.Green, new Color32(177, 204, 0, 255));
-            //color.Add(rgb.LightGreen, new Color32(242, 255, 209, 255));
+            color.Add(rgb.Red, new Color32(255, 191, 79,255));
+            color.Add(rgb.Green, new Color32(169, 255, 60, 255));
             color.Add(rgb.LightGreen, new Color32(140, 147, 87, 80));
-            color.Add(rgb.Yellow, new Color32(243, 228, 71, 128));
-            color.Add(rgb.LightYellow, new Color32(255, 242, 209, 255));
-            //color.Add(rgb.White, new Color32(255, 255, 255, 200));
-            color.Add(rgb.White, new Color32(170, 180, 188, 200));
+            color.Add(rgb.Rose, new Color32(255, 144, 219, 255));
+            //color.Add(rgb.LightYellow, new Color32(255, 242, 209, 255));
+            color.Add(rgb.White, new Color32(153, 226, 255, 255));
 
             transform.GetOrAddComponent<Image>().color = color[paint];
             return transform;

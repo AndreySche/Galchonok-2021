@@ -16,10 +16,11 @@ namespace Galchonok
             _anime = new QuestionAnime(imageTarget, settings.images, area.GetComponentInChildren<Text>());
         }
 
-        public void Set(ChapterBook chapter)
+        public void Set(ChapterBook chapter, int gameId)
         {
-            string question = $"{_library.Book[chapter.Book][chapter.Chapter].Question.ToUpper()}?";
-            _anime.Anime(chapter.Book, question);
+            ChapterA chap = _library.Book[chapter.Book][chapter.Chapter];
+            string question = gameId == 0 ? $"{chap.Question}?" : chap.Answers[chapter.Answer];
+            _anime.Anime(chapter.Book, question.ToUpper());
         }
     }
 }

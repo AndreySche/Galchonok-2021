@@ -8,8 +8,10 @@ namespace Galchonok
     class Menu : MonoBehaviour
     {
         [SerializeField] List<GameObject> _buttonGame = null;
-        [SerializeField] List<GameObject> _buttonMenu = null;
+        [SerializeField] private GameObject _buttonMenu;
+        [SerializeField] private Transform _areaButtonDown;
         private PageSwitch _pageSwitch;
+        private List<Pages> _pages = new List<Pages>(){Pages.Logo, Pages.Settings, Pages.Warning};
 
         public void Init(PageSwitch pageSwitch)
         {
@@ -17,11 +19,7 @@ namespace Galchonok
             _buttonGame[0].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.GameA));
             _buttonGame[1].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.GameB));
             _buttonGame[2].GetOrAddComponent<Button>().interactable = false;
-
-            _buttonMenu[0].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.Logo));
-            _buttonMenu[1].GetOrAddComponent<Button>().interactable = false;
-            _buttonMenu[2].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.Settings));
-            _buttonMenu[3].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.Warning));
+            InitButtonMenu();
         }
 
         private void Dispose(Pages page)
@@ -29,15 +27,27 @@ namespace Galchonok
             foreach (var child in _buttonGame)
             {
                 child.GetOrAddComponent<Button>().onClick.RemoveAllListeners();
-                child.GetOrAddComponent<Button>().interactable = false;
+                //child.GetOrAddComponent<Button>().interactable = false;
             }
 
-            foreach (var child in _buttonMenu)
+            foreach (Transform child in _areaButtonDown)
             {
-                child.GetOrAddComponent<Button>().onClick.RemoveAllListeners();
-                child.GetOrAddComponent<Button>().interactable = false;
+                child.gameObject.GetOrAddComponent<Button>().onClick.RemoveAllListeners();
+                //child.gameObject.GetOrAddComponent<Button>().interactable = false;
             }
             _pageSwitch.LoadPage(page);
+        }
+
+        private void InitButtonMenu()
+        {
+            _areaButtonDown.Destroy();
+            int i = 0;
+            foreach (var page in _pages)
+            {
+                GameObject butt = Object.Instantiate(_buttonMenu, _areaButtonDown, false);
+                butt.GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(page));
+                butt.GetComponent<ButtonInit>().Init(i++);
+            }
         }
     }
 }

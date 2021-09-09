@@ -28,12 +28,12 @@ namespace Galchonok
             switch (_page)
             {
                 case Pages.GameA:
-                    GameOne gameA = EasyLoad<GameOne>("GameС");
+                    GameOne gameA = EasyLoad<GameOne>("GameOne");
                     gameA.Init(BackToMenu);
                     break;
                 case Pages.GameB:
-                    GameOne gameB = EasyLoad<GameOne>("GameB");
-                    gameB.Init(BackToMenu);
+                    GameOne gameB = EasyLoad<GameOne>("GameOne");
+                    gameB.Init(BackToMenu, 1);
                     break;
                 case Pages.Logo:
                     Logo logo = EasyLoad<Logo>("Logo");
