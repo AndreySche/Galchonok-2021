@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine.Events;
+using Pages;
 
 namespace TypeOne
 {
@@ -17,6 +18,7 @@ namespace TypeOne
         [SerializeField] private GameObject _backButton;
         
         [HideInInspector] public Beethoven _beethoven;
+        private PageSwitch _pageSwitch;
         private Questions _questions;
         private Answers _answers;
         private LibrarionTypeOne _librarion;
@@ -24,17 +26,22 @@ namespace TypeOne
         private int _step, _max;
         private int _gameId;
         private Button _back;
+        private int _alreadyAnsweredCount;
         #endregion
         
-        public void Init(UnityAction callBack, Beethoven beethoven, int gameId = 0)
+        //public void Init(UnityAction callBack, Beethoven beethoven, int gameId = 0)
+        public void Init(PageSwitch pageSwitch, Beethoven beethoven, int gameId = 0)
         {
             _gameId = gameId;
             _beethoven = beethoven;
+            _pageSwitch = pageSwitch;
+            _alreadyAnsweredCount = 0;
             _back = _backButton.IphoneMove(GetComponentInParent<Main>()._safeArea.hole).GetOrAddComponent<Button>();
             _back.onClick.AddListener(() =>
             {
                 Dispose();
-                callBack();
+                _pageSwitch.LoadPage(Page.Menu);
+                //callBack();
             });
         }
 
@@ -51,35 +58,53 @@ namespace TypeOne
             FirstStart();
         }
 
-        private void Next()
+        private void Set(bool answeredNext)
         {
             ChapterBook chapter = _librarion.Next(_step);
+            
+            //Already Answered
+            
+            bool alreadyAnswered = _answers.Set(chapter, _gameId, _step, answeredNext);
+            if (!alreadyAnswered && answeredNext)
+            {
+                if (_alreadyAnsweredCount++ >= _max)
+                {
+                    Debug.Log("Game Over");
+                    _pageSwitch.LoadPage(Page.YouWin);
+                }
+                else
+                {
+                    Debug.Log("GameOne Next()");
+                    Next(true, true);
+                    return;
+                }
+            }
+            
             _questions.Set(chapter, _gameId);
-            _answers.Set(chapter, _gameId, _step);
             _progressBar.SetBorder(_step);
         }
 
-        private void Next(bool next)
+        private void Next(bool next, bool answeredNext)
         {
             _step += next ? 1 : -1;
-            if (_step > _max) _step = _max;
-            else if (_step < 0) _step = 0;
-            Next();
+            if (_step > _max) _step = 0;
+            else if (_step < 0) _step = _max;
+            Set(answeredNext);
         }
 
         private void Click(bool correct)
         {
             if(_settings.Mp3 == 1) _beethoven.Result(correct);
             _progressBar.SetColor(correct);
-            if (correct) Next(true);
-            else Next();
+            if (correct) Next(true, true);
+            else Set(true);
         }
 
         private void FirstStart()
         {
-            _nextPrew[0].GetOrAddComponent<Button>().onClick.AddListener(() => Next(false));
-            _nextPrew[1].GetOrAddComponent<Button>().onClick.AddListener(() => Next(true));
-            Next();
+            _nextPrew[0].GetOrAddComponent<Button>().onClick.AddListener(() => Next(false, false));
+            _nextPrew[1].GetOrAddComponent<Button>().onClick.AddListener(() => Next(true, false));
+            Set(false);
         }
 
         private void SetFromCookies()

@@ -5,71 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a211212d-0105-471d-816e-f2a4d6974836" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameOne.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/GameOne.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Logo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/Logo.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/Menu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameA.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameA.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Beethoven.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Beethoven.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/AnswerRound.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/AnswerRound.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterA.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterA.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterBook.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterBook.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibraryOne.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibraryOne.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ButtonInit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ButtonInit.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextOutline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextOutline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextOutline.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextOutline.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Curtain.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Curtain.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Logo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Logo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageInit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageInit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Slider.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Slider.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Debug.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Type One/Answers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Type One/Answers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Type One/GameOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Type One/GameOne.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Warning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Warning.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Settings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Settings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SafeAreaDetected.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SafeAreaDetected.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/rgb.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/rgb.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/SliderSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/SliderSet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +188,7 @@
       <workItem from="1631709471586" duration="2541000" />
       <workItem from="1631717627954" duration="26337000" />
       <workItem from="1631819134050" duration="16298000" />
+      <workItem from="1632221752150" duration="5334000" />
     </task>
     <servers />
   </component>

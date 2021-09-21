@@ -28,10 +28,10 @@ namespace Pages
             }
 
             _area.Attach("answers", _sliderPrefab).GetComponent<SliderSet>()
-                .Init(Cookie.Answers, _settings.Answers, 2, 5, true);
+                .Init(Cookie.Answers, "Кол-во ответов",_settings.Answers, 2, 5, true);
 
             _area.Attach("questions", _sliderPrefab).GetComponent<SliderSet>()
-                .Init(Cookie.Questions, _settings.Questions, 5, 20, true);
+                .Init(Cookie.Questions, "Кол-во вопросов",_settings.Questions, 5, 20, true);
         }
     }
 

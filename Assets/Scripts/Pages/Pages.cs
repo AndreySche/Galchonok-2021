@@ -33,6 +33,7 @@ namespace Pages
         GameB,
         Menu,
         Warning,
-        Settings
+        Settings,
+        YouWin
     }
 }

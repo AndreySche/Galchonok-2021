@@ -5,7 +5,7 @@ using TypeOne;
 
 namespace Pages
 {
-    class PageSwitch
+    public class PageSwitch
     {
         private Curtain _curtain;
         private Transform _area;
@@ -32,11 +32,11 @@ namespace Pages
             {
                 case Page.GameA:
                     GameOne gameA = EasyLoad<GameOne>("GameOne");
-                    gameA.Init(BackToMenu, _beethoven);
+                    gameA.Init(this, _beethoven);
                     break;
                 case Page.GameB:
                     GameOne gameB = EasyLoad<GameOne>("GameOne");
-                    gameB.Init(BackToMenu, _beethoven, 1);
+                    gameB.Init(this, _beethoven, 1);
                     break;
                 case Page.Logo:
                     Logo logo = EasyLoad<Logo>("Logo");
@@ -53,6 +53,10 @@ namespace Pages
                 case Page.Settings:
                     Settings settings = EasyLoad<Settings>("Settings");
                     settings.Init(BackToMenu, _beethoven);
+                    break;
+                case Page.YouWin:
+                    YouWin youWin = EasyLoad<YouWin>("YouWin");
+                    youWin.Init(BackToMenu, _beethoven);
                     break;
                 default:
                     Error error = EasyLoad<Error>("Error");

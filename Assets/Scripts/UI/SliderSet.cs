@@ -4,17 +4,18 @@ using UnityEngine.UI;
 
 public class SliderSet : MonoBehaviour
 {
-    [SerializeField] private Text _text;
+    [SerializeField] private Text _info;
+    [SerializeField] private Text _title;
     private Slider _me;
     private Cookie _name;
 
     public void Set()
     {
-        _text.text = _me.value.ToString();
+        _info.text = _me.value.ToString();
         Cookies.Set(_name, (int) _me.value);
     }
 
-    public void Init(Cookie name, int defaultValue, int minValue, int maxValue, bool wholeNumbers)
+    public void Init(Cookie name, string title, int defaultValue, int minValue, int maxValue, bool wholeNumbers)
     {
         _name = name;
         _me = gameObject.GetComponent<Slider>();
@@ -23,7 +24,8 @@ public class SliderSet : MonoBehaviour
         _me.maxValue = maxValue;
         _me.wholeNumbers = wholeNumbers;
         _me.value = cookies;
-        _text.text = cookies.ToString();
+        _info.text = cookies.ToString();
+        _title.text = title;
         
     }
 }

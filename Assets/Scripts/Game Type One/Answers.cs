@@ -25,19 +25,24 @@ namespace TypeOne
             _clickHistory = new Dictionary<int, List<AnswerRound>>();
         }
 
-        public void Set(ChapterBook chapter, int gameId, int step)
+        public bool Set(ChapterBook chapter, int gameId, int step, bool alreadyAnswered)
         {
             _area.transform.Destroy();
+            bool result = true;
             foreach (var answer in chapter.Answers)
             {
                 bool correct = (chapter.Book == answer.Book && chapter.Chapter == answer.Chapter);
                 var chap = _library.Book[answer.Book][answer.Chapter];
                 string title = gameId == 1 ? chap.Question : chap.Answers[answer.Answer];
                 rgb color = GetPrefabColor(step, correct, answer);
+                if (color == rgb.Green && alreadyAnswered) result = false;
+                
                 _area.transform.Attach(title, _prefabGreen.SetNewColor(color))
                     .GetOrAddComponent<Button>()
                     .onClick.AddListener(() => Click(step, correct, answer));
             }
+
+            return result;
         }
 
         private rgb GetPrefabColor(int step, bool correct, AnswerRound answer)
@@ -54,7 +59,7 @@ namespace TypeOne
             _callback(correct);
         }
 
-        private bool Verify(int step, AnswerRound answer)
+        public bool Verify(int step, AnswerRound answer)
         {
             foreach (var child in _clickHistory[step])
             {
