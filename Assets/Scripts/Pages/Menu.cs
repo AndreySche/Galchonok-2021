@@ -2,27 +2,28 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Galchonok
+namespace Pages
 {
     //[RequireComponent(typeof(Button))]
-    class Menu : MonoBehaviour
+    class Menu : Pages
     {
         [SerializeField] List<GameObject> _buttonGame = null;
         [SerializeField] private GameObject _buttonMenu;
         [SerializeField] private Transform _areaButtonDown;
         private PageSwitch _pageSwitch;
-        private List<Pages> _pages = new List<Pages>(){Pages.Logo, Pages.Settings, Pages.Warning};
+        private List<Page> _pages = new List<Page>(){Page.Logo, Page.Warning, Page.Settings};
 
-        public void Init(PageSwitch pageSwitch)
+        public void Init(PageSwitch pageSwitch, Beethoven beethoven)
         {
             _pageSwitch = pageSwitch;
-            _buttonGame[0].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.GameA));
-            _buttonGame[1].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Pages.GameB));
+            //_beethoven = beethoven;
+            _buttonGame[0].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Page.GameA));
+            _buttonGame[1].GetOrAddComponent<Button>().onClick.AddListener(() => Dispose(Page.GameB));
             _buttonGame[2].GetOrAddComponent<Button>().interactable = false;
             InitButtonMenu();
         }
 
-        private void Dispose(Pages page)
+        private void Dispose(Page pageEnum)
         {
             foreach (var child in _buttonGame)
             {
@@ -35,7 +36,7 @@ namespace Galchonok
                 child.gameObject.GetOrAddComponent<Button>().onClick.RemoveAllListeners();
                 //child.gameObject.GetOrAddComponent<Button>().interactable = false;
             }
-            _pageSwitch.LoadPage(page);
+            _pageSwitch.LoadPage(pageEnum);
         }
 
         private void InitButtonMenu()

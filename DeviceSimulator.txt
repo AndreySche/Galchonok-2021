@@ -1,0 +1,2 @@
+Папка с девайсами
+C:\Users\micro\Documents\Unity3D\Galchonok\Library\PackageCache\com.unity.device-simulator@2.2.4-preview\.DeviceDefinitions

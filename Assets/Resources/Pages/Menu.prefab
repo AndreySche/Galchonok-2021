@@ -465,8 +465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 150}
+  m_AnchoredPosition: {x: 0, y: -50}
+  m_SizeDelta: {x: 0, y: 200}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4473919363567349129
 CanvasRenderer:
@@ -591,6 +591,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f0775efa681ac748beee871dccf9851, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _backButton: {fileID: 0}
+  _gameId: 0
+  _beethoven: {fileID: 0}
   _buttonGame:
   - {fileID: 4427279126574504370}
   - {fileID: 5880657214313823194}

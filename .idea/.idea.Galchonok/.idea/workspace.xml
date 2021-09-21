@@ -5,109 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a211212d-0105-471d-816e-f2a4d6974836" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Galchonok/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/LoyalDrums-DrumRope-FilamentDacron-White-1_4_2048x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/LoyalDrums-DrumRope-FilamentDacron-White-1_4_2048x.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Rope-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Rope-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-2-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-2-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-2-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-2-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-UI-2-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-UI-2-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-UI-2-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-UI-2-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button-mask.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Tree House Yewon Im.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/Tree House Yewon Im.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/forest-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/forest-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/sky.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/UI-2/sky.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/Montserrat-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/Montserrat-Black.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/RosaMarena.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/RosaMarena.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/ADVENC_0.OTF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/ADVENC_0.OTF.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/BadScript-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/BadScript-Regular.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/EuroscriptPro.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/EuroscriptPro.otf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/PFKidsPro-GradeFive_0.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/PFKidsPro-GradeFive_0.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/RosaMarena.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/fonts/hand/RosaMarena.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/Gdarient.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/Gdarient.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/button-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/button-1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/button-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/button-3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/circle-interface.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/circle-interface.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/hands-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/hands-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/icons-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/icons-3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/interface-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/interface-3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/мятая-бумага.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/interface/мятая-бумага.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/main-bg-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/main-bg-1.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/main-bg-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/main-bg-2.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button Green.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Button Green.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button Orange.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button Orange.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Progress Bar v3.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Progress Bar v3.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rope Img.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rope Img.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Error.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/Error.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameA.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameA.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameB.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameB.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameС.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameС.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/GameOne.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/GameOne.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Logo.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/Logo.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/Menu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Menu.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/Menu.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Settings.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Settings.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Pages/Warning.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Pages/Warning.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Layouts tmp.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Layouts tmp.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameA.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameA.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterBook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Beethoven.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Beethoven.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerAnswers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/ControllerQuestion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/GameOne.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/AnswerRound.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/AnswerRound.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterA.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterA.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterBook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/Classes/ChapterBook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibrarionTypeOne.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibraryOne.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/LibraryOne.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/Labrarion/QuestionAnime.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTypeOne/TypeOneUtilites.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ButtonInit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/ButtonInit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextOutline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextOutline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextOutline.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interface/TextOutline.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Curtain.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Curtain.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Logo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Logo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageInit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/PageInit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageInit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageInit.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/PageSwitch.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PagesPrefabs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/PagesPrefabs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Result.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Result.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Settings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Settings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/rgb.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tools/rgb.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_исходники/UI/4Z_2101.w017.n001.354B.p15.354.eps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_исходники/UI/4Z_2101.w017.n001.354B.p15.354.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_исходники/UI/8cf5e259334499.5a1e620127c59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_исходники/UI/copyright.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_исходники/UI/vector-game-template-gui-kit_1150-48278.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Pages.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pages/Warning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pages/Warning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SafeAreaDetected.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SafeAreaDetected.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/rgb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tools/rgb.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,12 +95,22 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameTypeOne/RandomRange.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/settings/DeviceSimulatorProjectSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/SelectableEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/ButtonEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Interface/ButtonInit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/settings/DeviceSimulatorUserSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game Type One/Settings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProgressBarV4/ProgressBarView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cookies.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/Input/InputProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/Input/InputSystemBackend.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/uielements/DeviceView.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/88f69663e9a64d00b2091dd8dfd4d38f13b800/fe/e893a49a/ScriptableObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/Interfaces/ISimulatorEvents.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/Interfaces/IInputBackend.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/DeviceInfo/DeviceDatabase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.4-preview/Editor/DeviceInfo/DeviceInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Pages/Error.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -211,7 +183,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -264,6 +236,12 @@
       <workItem from="1630326687849" duration="3028000" />
       <workItem from="1630340141256" duration="1236000" />
       <workItem from="1631170640751" duration="13421000" />
+      <workItem from="1631203304083" duration="2238000" />
+      <workItem from="1631629189387" duration="3607000" />
+      <workItem from="1631703544697" duration="918000" />
+      <workItem from="1631709471586" duration="2541000" />
+      <workItem from="1631717627954" duration="26337000" />
+      <workItem from="1631819134050" duration="16298000" />
     </task>
     <servers />
   </component>

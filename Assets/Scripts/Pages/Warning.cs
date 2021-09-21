@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace Galchonok
+namespace Pages
 {
-    class Warning : PageInit
+    class Warning : Pages
     {
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Galchonok
+namespace TypeOne
 {
     public class ProgressBarView : MonoBehaviour
     {
@@ -13,7 +13,7 @@ namespace Galchonok
         private List<GameObject> _list;
         private GameObject _prewSelectSquare;
 
-        public void Init(TypeOneSettings settings)
+        public void Init(Settings settings)
         {
             _area.Destroy();
             _list = new List<GameObject>();

@@ -1,6 +1,6 @@
-﻿namespace Galchonok
+﻿namespace Pages
 {
-    class Error : PageInit
+    class Error : Pages
     {
     }
 }

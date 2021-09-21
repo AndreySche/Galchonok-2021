@@ -1,55 +1,62 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Tools;
+using TypeOne;
 
-namespace Galchonok
+namespace Pages
 {
     class PageSwitch
     {
         private Curtain _curtain;
         private Transform _area;
-        private Pages _page;
+        private Beethoven _beethoven;
+        private Page _pageEnum;
 
-        public PageSwitch(Image curtain, Transform area)
+        public PageSwitch(Image curtain, Transform area, Beethoven beethoven)
         {
             _curtain = new Curtain(curtain);
             _area = area;
+            _beethoven = beethoven;
         }
 
-        public void LoadPage(Pages page)
+        public void LoadPage(Page pageEnum)
         {
-            _page = page;
+            _pageEnum = pageEnum;
             _curtain.Show(Load);
         }
 
         private void Load()
         {
             _area.Destroy();
-            switch (_page)
+            switch (_pageEnum)
             {
-                case Pages.GameA:
+                case Page.GameA:
                     GameOne gameA = EasyLoad<GameOne>("GameOne");
-                    gameA.Init(BackToMenu);
+                    gameA.Init(BackToMenu, _beethoven);
                     break;
-                case Pages.GameB:
+                case Page.GameB:
                     GameOne gameB = EasyLoad<GameOne>("GameOne");
-                    gameB.Init(BackToMenu, 1);
+                    gameB.Init(BackToMenu, _beethoven, 1);
                     break;
-                case Pages.Logo:
+                case Page.Logo:
                     Logo logo = EasyLoad<Logo>("Logo");
-                    logo.Init(BackToMenu);
+                    logo.Init(BackToMenu, _beethoven);
                     break;
-                case Pages.Menu:
+                case Page.Menu:
                     Menu menu = EasyLoad<Menu>("Menu");
-                    menu.Init(this);
+                    menu.Init(this, _beethoven);
                     break;
-                case Pages.Warning:
+                case Page.Warning:
                     Warning warning = EasyLoad<Warning>("Warning");
-                    warning.Init(BackToMenu);
+                    warning.Init(BackToMenu, _beethoven);
+                    break;
+                case Page.Settings:
+                    Settings settings = EasyLoad<Settings>("Settings");
+                    settings.Init(BackToMenu, _beethoven);
                     break;
                 default:
                     Error error = EasyLoad<Error>("Error");
-                    error.Init(BackToMenu);
+                    error.Init(BackToMenu, _beethoven);
                     break;
                     
             }
@@ -61,6 +68,6 @@ namespace Galchonok
             return ResourceLoader.LoadAndInstantiateObject<T>(new ResourcePath {PathResource = "Pages/" + file}, _area, false); 
         } 
         
-        private void BackToMenu() => LoadPage(Pages.Menu);
+        private void BackToMenu() => LoadPage(Page.Menu);
     }
 }

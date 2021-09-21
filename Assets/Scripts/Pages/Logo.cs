@@ -1,9 +1,6 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
-
-namespace Galchonok
+﻿namespace Pages
 {
-    class Logo : PageInit
+    class Logo : Pages
     {
     }
 }
